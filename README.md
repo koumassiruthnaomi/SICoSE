@@ -85,7 +85,7 @@ Le plan gratuit de Render met l'API en veille apr√®s quelques minutes sans requ√
 ```bash
 cd api
 pip install -r requirements.txt
-export TB_TOKEN="votre-token"          # facultatif
+export TB_TOKEN="notre-token"        
 uvicorn main:app --host 0.0.0.0 --port 8002
 ```
 
