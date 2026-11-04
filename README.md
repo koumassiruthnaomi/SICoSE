@@ -4,7 +4,7 @@ Projet de fin d'année (PFA), FST Fès, 2025-2026, réalisé en équipe de cinq.
 
 Un système IoT qui surveille la température, l'humidité, le gaz et la présence de flamme dans un local. Il estime le risque de moisissures, détecte les situations anormales, pilote un ventilateur et une pompe, et envoie des notifications sur une application mobile.
 
-**Ma contribution : la partie intelligence artificielle : l'API FastAPI, les modèles Random Forest et Isolation Forest, la logique des niveaux d'alerte et les explications. Le firmware ESP32 et l'application mobile ont été réalisés par l'équipe.
+**Ma contribution :** la partie intelligence artificielle : l'API FastAPI, les modèles Random Forest et Isolation Forest, la logique des niveaux d'alerte et les explications. Le firmware ESP32 et l'application mobile ont été réalisés par l'équipe.
 
 > Prototype testé en laboratoire. Les données d'entraînement des modèles sont simulées. Le matériel a été restitué après le projet : les résultats ci-dessous correspondent aux essais réalisés à l'époque.
 
@@ -48,7 +48,11 @@ Chaque capteur a été testé séparément, puis le système complet a été tes
   - Niveau 3 : flamme détectée. Pompe, buzzer et notification.
 - **API** : les points d'accès ont été testés avec Swagger UI et des requêtes curl (`/api/ai/risk-score`, `/api/ai/metrics`, `/api/ai/feature-importance`, `/api/data/stats`, `/api/health`).
 
-**Vidéos des tests :https://youtube.com/shorts/SASw4nIXV2w?is=KFjiIRKSKWkPFBq6
+## Vidéo du test global
+
+Cette vidéo montre le fonctionnement de l'ensemble du système lors d'un test général : capteurs, communication, alerte et notification.
+
+[Voir la vidéo](https://youtu.be/SASw4nIXV2w)
 
 ## Résultats de l'IA
 
@@ -66,7 +70,7 @@ Chaque capteur a été testé séparément, puis le système complet a été tes
 
 ## Essayer l'API en ligne
 
-- Documentation interactive (Swagger) : .....
+- Documentation interactive (Swagger) : https://sicose-api.onrender.com/docs
 - Lancer les quatre scénarios des tests sans matériel :
 
 ```bash
@@ -103,10 +107,8 @@ Le firmware n'est pas nécessaire pour essayer l'API : utilise plutôt `simuler_
 
 ## Équipe
 
-Partie Esp32 : AKPA YAOVI RICHARD 
-               CAMARA MOUSSA 
-               QALEBI LAMYAA 
-Partie ThingsBoard et Application Flutter : ELHAKMAOUI MAJIDA
-Partie IA : KOUMASSI RUTH NAOMI(Moi)
+- Partie firmware ESP32 : Akpa Yaovi Richard, Camara Moussa, Qalebi Lamyaa
+- Partie ThingsBoard et application Flutter : Elhakmaoui Majida
+- Partie IA : Koumassi Ruth Naomi
 
-Encadrée par PR. NOR-SAID ECHATOUI Professeur a la FST de FES.
+Encadré par le Pr. Nor-Said Echatoui, FST Fès.
