@@ -89,7 +89,7 @@ export TB_TOKEN="notre-token"
 uvicorn main:app --host 0.0.0.0 --port 8002
 ```
 
-Les modèles sont créés au premier lancement dans `data/` (ignoré par Git).
+Les modèles sont créés au premier lancement dans `data/`.
 
 ## Firmware ESP32
 
