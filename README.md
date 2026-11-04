@@ -48,7 +48,7 @@ Chaque capteur a été testé séparément, puis le système complet a été tes
   - Niveau 3 : flamme détectée. Pompe, buzzer et notification.
 - **API** : les points d'accès ont été testés avec Swagger UI et des requêtes curl (`/api/ai/risk-score`, `/api/ai/metrics`, `/api/ai/feature-importance`, `/api/data/stats`, `/api/health`).
 
-**Vidéos des tests :** [À COMPLÉTER : lien vers chaque vidéo, une par niveau d'alerte]
+**Vidéos des tests :https://youtube.com/shorts/SASw4nIXV2w?is=KFjiIRKSKWkPFBq6
 
 ## Résultats de l'IA
 
@@ -66,7 +66,7 @@ Chaque capteur a été testé séparément, puis le système complet a été tes
 
 ## Essayer l'API en ligne
 
-- Documentation interactive (Swagger) : [À COMPLÉTER : https://sicose-api.onrender.com/docs]
+- Documentation interactive (Swagger) : .....
 - Lancer les quatre scénarios des tests sans matériel :
 
 ```bash
