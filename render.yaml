@@ -1,0 +1,18 @@
+# Déploiement de l'API SICoSE sur Render (plan gratuit).
+# Aucun matériel nécessaire : l'API tourne seule, TB_TOKEN reste vide.
+services:
+  - type: web
+    name: sicose-api
+    runtime: python
+    plan: free
+    region: frankfurt
+    rootDir: api
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: SICOSE_DIR
+        value: /tmp/sicose-data
+      - key: TB_TOKEN
+        sync: false        # facultatif : laisser vide pour une démo publique

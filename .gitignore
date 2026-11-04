@@ -1,0 +1,6 @@
+data/
+*.pkl
+*.db
+__pycache__/
+secrets.h
+.env
