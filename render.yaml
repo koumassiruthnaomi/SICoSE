@@ -14,5 +14,3 @@ services:
         value: 3.12.7
       - key: SICOSE_DIR
         value: /tmp/sicose-data
-      - key: TB_TOKEN
-        sync: false        # facultatif : laisser vide pour une démo publique
