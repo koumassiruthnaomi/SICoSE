@@ -11,7 +11,7 @@ import requests
 SCENARIOS = {
     "1. Normal": {
         "temperature": 23, "humidity": 50, "point_rosee": 12,
-        "gas": 420, "flame": 1, "temp_ext": 12, "hum_ext": 60,
+        "gas": 420, "flame": 1, "temp_ext": 20, "hum_ext": 60,
     },
     "2. Humidité élevée (vigilance)": {
         "temperature": 24, "humidity": 85, "point_rosee": 21,
