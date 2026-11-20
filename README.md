@@ -70,7 +70,7 @@ Cette vidéo montre le fonctionnement de l'ensemble du système lors d'un test g
 - Le matériel n'étant plus disponible, le système ne peut pas être relancé à l'identique.
 
 ## Essayer l'API en ligne
-
+![](./api.jpeg)
 - Documentation interactive (Swagger) : https://sicose-api.onrender.com/docs
 - Lancer les quatre scénarios des tests sans matériel :
 
