@@ -1,6 +1,7 @@
 # SICoSE : système intelligent de surveillance environnementale
 
 Projet de fin d'année (PFA), FST Fès, 2025-2026, réalisé en équipe de cinq.
+![](./test.jpeg)
 
 Un système IoT qui surveille la température, l'humidité, le gaz et la présence de flamme dans un local. Il estime le risque de moisissures, détecte les situations anormales, pilote un ventilateur et une pompe, et envoie des notifications sur une application mobile.
 
